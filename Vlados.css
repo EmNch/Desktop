@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #6a11cb 0%, #2575fc 100%);
+    font-family: Arial, sans-serif;
+}
+h1 {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.image-container {
+    border: 12px solid;
+    border-image: linear-gradient(to right, #ff6b6b, #4ecdc4) 1;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    max-width: 80%;
+    transition: transform 0.3s ease;
+}
+.image-container:hover {
+    transform: scale(1.05);
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
